@@ -28,14 +28,14 @@ scene.add(particleMesh);
 
 // Liste des technologies avec leur image
 const technologies = [
-    { name: "Docker", img: "assets/docker.png", position: { x: -6, y: 3, z: -10 } },
-    { name: "Kubernetes", img: "assets/kubernetes.png", position: { x: -2, y: 3, z: -10 } },
-    { name: "Nextcloud", img: "assets/nextcloud.png", position: { x: 2, y: 3, z: -10 } },
-    { name: "Ansible", img: "assets/ansible.png", position: { x: 6, y: 3, z: -10 } },
-    { name: "Terraform", img: "assets/terraform.png", position: { x: -4, y: -1, z: -10 } },
-    { name: "Réseau", img: "assets/network.png", position: { x: 0, y: -1, z: -10 } },
-    { name: "SDN", img: "assets/sdn.png", position: { x: 4, y: -1, z: -10 } },
-    { name: "SD-WAN", img: "assets/sd-wan.png", position: { x: 8, y: -1, z: -10 } }
+    { name: "Docker", img: "docker.png", position: { x: -6, y: 3, z: -10 } },
+    { name: "Kubernetes", img: "kubernetes.png", position: { x: -2, y: 3, z: -10 } },
+    { name: "Nextcloud", img: "nextcloud.png", position: { x: 2, y: 3, z: -10 } },
+    { name: "Ansible", img: "ansible.png", position: { x: 6, y: 3, z: -10 } },
+    { name: "Terraform", img: "terraform.png", position: { x: -4, y: -1, z: -10 } },
+    { name: "Réseau", img: "network.png", position: { x: 0, y: -1, z: -10 } },
+    { name: "SDN", img: "sdn.png", position: { x: 4, y: -1, z: -10 } },
+    { name: "SD-WAN", img: "sd-wan.png", position: { x: 8, y: -1, z: -10 } }
 ];
 
 // Charger les textures et créer les panneaux 3D
